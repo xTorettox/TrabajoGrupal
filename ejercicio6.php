@@ -12,7 +12,7 @@ $opciones = $mysqli->query("SELECT * FROM montania");
         </div>
         <div class="row">
             <div class="row">
-                <div class="col-lg-12 fuente-helvetica">
+                <div class="col-lg-12">
                     <b>El excursionismo (o trekking) puede definirse como una modalidad deportiva no competitiva que
                         consiste en recorrer de forma autónoma, generalmente a pie, parajes aislados generalmente con
                         dificultad de tránsito, tales como zonas montañosas o lugares remotos sin senderos.En las

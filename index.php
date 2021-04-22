@@ -3,8 +3,8 @@
 <body>
     <div class="container-fluid d-flex justify-content-center align-items-center">
         <div class="col-md-12">
-            <h1 class="text-center">Trekking</h1>
-            <img class="img_index" src="./img/trekking_index-prueba.jpg" alt="">
+            <!-- <h1 class="text-center">Trekking</h1> -->
+            <img class="img_index" src="./img/trekking_index-prueba.jpg" alt="Imagen bienvenida">
             <div class="row row-index">
                 <div class="col-12 primer-div-index">
                     <p>El trekking o excursionismo es una actividad física que consiste en caminar por escenarios
@@ -44,5 +44,5 @@
             </div>
         </div>
     </div>
+    <?php include('./footer.php') ?>
 </body>
-<?php include('./footer.php') ?>
