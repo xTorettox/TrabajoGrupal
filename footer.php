@@ -3,7 +3,10 @@
     <nav class="navbar navbar-light bg-light nav-footer">
         <div id="footer-div">
             <div class="row">
-                <div class="col-lg-3">
+            <div class="col-lg-1">
+                <img src="img/hiking.png" alt="logo">
+            </div>
+            <div class="col-lg-2">
                     <span>
                         PWA - Trabajo Práctico N° 2 <br>
                         Grupo Milanga de Pollo

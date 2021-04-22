@@ -60,7 +60,12 @@ body {
 
 /* FOOTER */
 
+.footer img {
+  height: 50px;
+}
+
 #footer-div {
+  height: 70px;
   position: relative;
   bottom: 0;
   width: 100%;
