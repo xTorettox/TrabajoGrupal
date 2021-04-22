@@ -21,19 +21,19 @@ $opciones = $mysqli->query("SELECT * FROM montania");
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 cont-img">
-                    <img src="./img/trekking_chalten1.jpg" alt="">
-                    <img src="./img/trekking_chalten2.jpg" alt="">
-                    <img src="./img/trekking_lanin1.jpg" alt="">
-                    <img src="./img/trekking_lanin2.jpg" alt="">
-                    <img src="./img/trekking_tromen1.jpg" alt="">
-                    <img src="./img/trekking_tromen2.jpg" alt="">
-                    <img src="./img/trekking_mendoza1.jpg" alt="">
-                    <img src="./img/trekking_mendoza2.jpg" alt="">
-                    <img src="./img/trekking_ushuaia1.jpg" alt="">
-                    <img src="./img/trekking_ushuaia2.jpg" alt="">
-                    <img src="./img/trekking5.jpeg" alt="">
-                    <img src="./img/trekking6.jpg" alt="">
+                <div class="col-lg-12 cont-img" id="img-container">
+                    <img class="img-lista" src="./img/trekking_chalten1.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_chalten2.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_lanin1.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_lanin2.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_tromen1.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_tromen2.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_mendoza1.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_mendoza2.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_ushuaia1.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking_ushuaia2.jpg" alt="">
+                    <img class="img-lista" src="./img/trekking5.jpeg" alt="">
+                    <img class="img-lista" src="./img/trekking6.jpg" alt="">
                 </div>
             </div>
             <div class="row primer-row">
@@ -41,7 +41,7 @@ $opciones = $mysqli->query("SELECT * FROM montania");
                     <ol class="list-li-desc">
                         <?php $i = 1;
                         while ($rowOpciones = $opciones->fetch_assoc()) { ?>
-                        <li id="<?php echo $rowOpciones['id'] ?>"><?php echo $rowOpciones['nombre'] ?></li>
+                            <li id="<?php echo $rowOpciones['id'] ?>"><?php echo $rowOpciones['nombre'] ?></li>
                         <?php $i++;
                         } ?>
                     </ol>

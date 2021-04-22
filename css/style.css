@@ -162,6 +162,16 @@ body {
   --bs-gutter-x: 0rem;
 }
 
+.img-lista {
+  filter: sepia();
+}
+
+.img-lista:hover {
+  transform: scale(1.1);
+  filter: saturate(200%);
+  transition:all .5s ease-in-out;
+}
+
 .cont-img img {
   height: 10em;
   width: 20em;
