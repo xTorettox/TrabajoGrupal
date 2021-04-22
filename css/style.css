@@ -1,0 +1,230 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* INDEX */
+
+.img_index {
+  height: 35em;
+  width: 100%;
+}
+.row-index {
+  border: 3px solid rgb(235, 215, 215);
+  margin-top: 2px;
+  border-radius: 2em;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.primer-div-index {
+  border-bottom: 2px solid rgb(150, 83, 83);
+}
+.segundo-div-index {
+  border-bottom: 2px solid rgb(150, 83, 83);
+}
+
+/* ------------------------------------------------------------- */
+
+/* TABS */
+#pagina2-img {
+  height: 10em;
+  width: 20em;
+}
+
+#pagina2-card-body {
+  border: 2px solid rgb(235, 224, 224);
+  width: 41rem;
+}
+
+/* ------------------------------------------------------- */
+
+/* COLUMNAS */
+
+.pagina3-columnas {
+  border: 3px solid rgb(235, 224, 224);
+}
+
+.pagina3-principal-row {
+  background-color: rgb(241, 238, 234);
+}
+
+/* ------------------------------------------------------------ */
+
+/* Ejercicio 5 */
+.color-primer-div div {
+  background-color: rgb(99, 142, 236);
+}
+.color-windown {
+  background-color: rgb(102, 229, 252);
+}
+.color-emoticones {
+  background-color: rgb(207, 117, 65);
+}
+.alt-div {
+  height: 8em;
+}
+.color-tercer-row {
+  background-color: rgb(173, 190, 194);
+}
+.color-first-last {
+  background-color: rgb(25, 233, 25);
+}
+.centrado {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------------------------------- */
+
+/* Ejercico 6 */
+.color-head {
+  background-color: rgb(245, 245, 238);
+}
+.color-principal-row {
+  background-color: violet;
+}
+.primer-row {
+  background-color: rgb(245, 253, 252);
+  min-width: 100%;
+  --bs-gutter-x: 0rem;
+}
+.color-table {
+  background-color: rgb(18, 182, 194);
+}
+.color-paragraph {
+  background-color: teal;
+}
+.color-last-div {
+  background: linear-gradient(to right, rgb(232, 232, 238), rgb(235, 224, 224));
+}
+
+.last-row {
+  --bs-gutter-x: 0rem;
+}
+
+.cont-img img {
+  height: 10em;
+  width: 20em;
+}
+
+.cont-img {
+  box-sizing: unset;
+}
+
+#img-general {
+  height: 70%;
+  width: 80%;
+  margin: 1em;
+}
+
+.fuente-helvetica {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin-left: 1em;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.div-container {
+  display: flex;
+  justify-content: center;
+  min-height: 82vh;
+}
+
+footer {
+  /*   width: 100%;
+  position: relative;
+  bottom: 0; */
+}
+
+/* ------------------------------------------------------ */
+
+/* Ejercicio 4 */
+
+.container-ejercicio4 h1 {
+  font-size: 3.5em;
+}
+
+.col-row div {
+  height: 15em;
+  display: flex;
+  align-items: center;
+  /* border: 5px solid white; */
+}
+
+.col-left {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.col-rigth {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.color-footer {
+  background-color: yellow;
+}
+
+@media (min-width: 992px) {
+  /* Para LG */
+  .div-footer-1 {
+    justify-content: flex-end;
+  }
+  .col-row-div1,
+  .col-row-div2,
+  .col-row-div3 {
+    justify-content: center;
+    background-color: red;
+  }
+  .header {
+    background-color: green;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Para MD */
+  .div-footer-1,
+  .div-footer-2 {
+    justify-content: center;
+  }
+  .col-row-div1 {
+    justify-content: flex-start;
+    background-color: red;
+  }
+  .col-row-div2 {
+    justify-content: flex-end;
+    background-color: red;
+  }
+  .col-row-div3 {
+    justify-content: center;
+    background-color: green;
+  }
+  .header {
+    background-color: rgb(39, 203, 224);
+  }
+}
+
+@media (max-width: 767px) {
+  .col-row-div2 {
+    justify-content: center;
+    background-color: rgb(39, 203, 224);
+  }
+  .col-row-div3 {
+    justify-content: flex-end;
+    background-color: red;
+  }
+  .header {
+    background-color: rgb(241, 178, 120);
+  }
+}
